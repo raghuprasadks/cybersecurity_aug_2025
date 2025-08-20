@@ -1,0 +1,71 @@
+Module 3 - Scanning Networks
+
+Lab 1: Perform Host Discovery
+
+The following are examples of host discovery techniques: 
+▪ ARP ping scan 
+▪ UDP ping scan 
+▪ ICMP ping scan (ICMP ECHO ping, ICMP timestamp, ping ICMP, and address mask ping) 
+▪ TCP ping scan (TCP SYN ping and TCP ACK ping) 
+▪ IP protocol ping scan
+
+Task 1: Perform Host Discovery using Nmap
+
+nmap -sn -PR <ip address>
+
+-sn disables port scan
+-PR performs ARP ping scan
+-PU: performs the UDP ping scan
+-PE: performs the ICMP ECHO ping scan.
+-PP: performs the ICMP timestamp ping scan
+
+nmap -sn -PE [Target Range of IP Addresses] 
+nmap -sn -PE 10.10.1.10-23
+
+nmap -sn -PR 43.204.121.160
+
+nmap -sn -PU 43.204.121.160
+
+nmap -sn -PE 43.204.121.160
+
+nmap -sn -PP 43.204.121.160
+
+
+
+Apart from the aforementioned network scanning techniques, you can also use the following scanning techniques to perform a host discovery on a target network. ▪ ICMP Address Mask Ping Scan: This technique is an alternative for the traditional ICMP ECHO ping scan, which are used to determine whether the target host is live specifically when administrators block the ICMP ECHO pings.
+# nmap -sn -PM [target IP address]
+▪ TCP SYN Ping Scan: This technique sends empty TCP SYN packets to the target host, ACK response means that the host is active.
+# nmap -sn -PS [target IP address]
+▪ TCP ACK Ping Scan: This technique sends empty TCP ACK packets to the target host; an RST response means that the host is active.
+# nmap -sn -PA [target IP address]
+▪ IP Protocol Ping Scan: This technique sends different probe packets of different IP protocols to the target host, any response from any probe indicates that a host is active.
+# nmap -sn -PO [target IP address]
+
+
+nmap -sn -PM 43.204.121.160
+
+nmap -sn -PS 43.204.121.160
+
+nmap -sn -PA 43.204.121.160
+
+nmap -sn -PO 43.204.121.160
+
+2. Perform port and service discovery
+
+Task 1: Explore Various Network Scanning Techniques using Nmap
+
+download zenmap
+nmap -sT -v <ipaddress>
+
+Enable fire wall 
+nmap -sS -v <ipaddress>
+
+nmap -sT -v <ipaddress>
+
+nmap -sM -v <ipaddress>
+
+
+
+
+
+

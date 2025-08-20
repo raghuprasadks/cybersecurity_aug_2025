@@ -1,0 +1,129 @@
+https://learn.eccouncil.org/
+
+Module 2
+Lab 1 - Perform Footprinting Through Search Engines
+
+Task 1: Gather Information using Advanced Google Hacking Techniques
+
+google operators
+
+intitle:login site:eccouncil.org
+
+intitle:infrastructure site:newhorizoncollege.co.in
+
+EC-Council filetype:pdf ceh
+new horizon college filetype:pdf brochure
+
+[cache:www.eccouncil.org]
+[allinurl: EC-Council career]
+[inurl:ceh site:www.eccouncil.org]
+[allintitle: detect malware]
+[Anti-virus inanchor:Norton]
+[allinanchor: best cloud service provider]
+[link:www.eccouncil.org]
+[related:www.eccouncil.org]
+[info:eccouncil.org]
+[location:EC-Council]
+
+Lab 2 - Perform Footprinting Through Internet Research Services
+
+Task 1: Find the Company’s Domains, Subdomains, and Hosts using Netcraft and DNSdumpster
+www.netcraft.com
+research tools
+site report
+https://www.certifiedhacker.com
+what is site
+ipconfig
+
+https://dnsdumpster.com/
+https://pentest-tools.com
+tools->subdomain finder
+
+
+Lab 3 - Perform Footprinting Through Social Networking Sites
+Task 1: Gather Personal Information from Various Social Networking Sites using Sherlock
+In parrot command prompt
+sherlock elon musk
+
+
+ Social Searcher (https://www.social-searcher.com)
+
+Lab 4 - Perform Whois Footprinting
+
+http://whois.domaintools.com
+search for any domain
+
+Lab 5 - Perform DNS Footprinting
+
+command line utility nslookup
+nslookup
+set type=a
+www.certifiedhacker.com
+set type=cname
+certifiedhacker.com
+set type=a
+ns1.bluehost.com
+
+alternatively 
+http://www.kloth.net/services/nslookup.php
+
+alternatively
+https://dnsdumpster.com
+
+Lab 6 - Perform Network Foot printing
+
+Task 1: Perform Network Tracerouting in Windows and Linux Machines
+on windows system
+tracert www.certifiedhacker.com
+tracert/?
+
+h - hops
+tracert -h 5 www.certifiedhacker.com
+
+parrot
+traceroute www.certifiedhacker.com
+
+Lab 7 - Perform E-Mail  footprinting
+
+Task 1: Gather Information about a Target by Tracing Emails using eMailTrackerPro
+
+alternatively
+
+mxtoolbox.com
+socialcatfish.com
+ip2location.com
+
+Lab 8: Perform Footprinting using Various Footprinting Tools
+
+Task 1: Footprinting a Target using Recon-ng
+
+Lab 9: Perform Footprinting using AI
+
+Task 1: Footprinting a Target using ShellGPT
+
+sgpt --chat footprint --shell "Use theHarvester to gather email accounts associated with 'microsoft.com', limiting results to 200, and leveraging 'baidu' as a data source"
+
+sgpt --chat footprint --shell "Use Sherlock to gather personal information about 'Sundar Pichai' and save the result in recon2.txt"
+
+sgpt --chat footprint --shell "Install and use DNSRecon to perform DNS enumeration on the target domain www.certifiedhacker.com"
+
+sgpt --chat footprint --shell "Perform network tracerouting to discover the routers on the path to a target host www.certifiedhacker.com"
+
+
+sgpt --chat footprint --shell "Develop a Python script which will accept domain name microsoft.com as input and execute a series of website footprinting commands, including DNS lookups, WHOIS records retrieval, email enumeration, and more to gather information about the target domain" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

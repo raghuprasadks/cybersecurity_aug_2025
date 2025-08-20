@@ -1,0 +1,47 @@
+https://hackzone.in/blog/ceh-v13-certification-guide-free-resources-2025/
+https://ceh-practical.cavementech.com/
+Install virtual box
+https://www.youtube.com/watch?v=zzG0BPma9yY
+
+Installation of parrot os
+https://www.youtube.com/watch?v=Ux0ivYuDQmc
+
+Cyber Security
+
+https://www.youtube.com/watch?v=h3PNK1pq2OA
+
+Domain Name Systems
+
+https://www.youtube.com/watch?v=mpQZVYPuDGU
+
+
+DNS Records in detail
+https://www.youtube.com/watch?v=HnUDtycXSNE
+
+https://www.youtube.com/watch?v=WVj_JJ7b7-c&list=PLOFO6BO5XHZbfkUUTXdHffg6KBVW910C6&index=14
+
+LAN
+https://www.youtube.com/watch?v=Pj7JJFbTZmw&list=PLOFO6BO5XHZbfkUUTXdHffg6KBVW910C6&index=2
+
+TCP/IP and OSI Models Animation
+https://www.youtube.com/watch?v=p55ufXPWqBM&list=PLOFO6BO5XHZbfkUUTXdHffg6KBVW910C6&index=8
+
+
+Ping, ARP, ICMP Protocols Explained with Visual Animation 
+https://www.youtube.com/watch?v=SQaVz_0Bq8c&list=PLOFO6BO5XHZbfkUUTXdHffg6KBVW910C6
+
+Animation
+https://www.youtube.com/watch?v=SQaVz_0Bq8c&list=PLOFO6BO5XHZbfkUUTXdHffg6KBVW910C6
+
+Animation playlist
+PowerCertAnimatedVideos
+
+https://www.youtube.com/watch?v=Mad4kQ5835Y&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcIvvg
+
+nginx
+https://medium.com/@chandramuthuraj/installing-nginx-on-windows-a-step-by-step-guide-6750575c63e2
+
+https://www.youtube.com/watch?v=1z0ULvg_pW8&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcIvvg&index=2
+
+osi
+https://www.youtube.com/watch?v=bdNS0K4Bt8U&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcIvvg&index=3
