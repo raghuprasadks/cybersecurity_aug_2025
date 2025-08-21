@@ -1,0 +1,60 @@
+Agenda:
+
+1. Foot printing
+Task 1: Perform Network Tracerouting in Windows and Linux Machines
+
+on windows machine
+tracert www.certifiedhacker.com
+
+tracert /?
+
+tracert -h 10 www.certifiedhacker.com
+
+in parrot os
+
+traceroute www.certifiedhacker.com
+traceroute -m 10 www.certifiedhacker.com
+
+traceroute www.certifiedhacker.com
+
+https://www.geeksforgeeks.org/linux-unix/traceroute-command-in-linux-with-examples/
+
+Email
+
+Step 1 - download jre and install
+https://www.java.com/en/download/manual.jsp
+windows online
+
+Step 2 - download emailtrackerpro and install
+emailtrackerpro.software.informer.com
+
+Step 3 - Open emailtrackerpro
+click on my trace report
+click on trace header
+click on trace an email you have received
+Go to your email
+click on any email you have received
+click on ... and show original
+copy to clip board
+paste
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

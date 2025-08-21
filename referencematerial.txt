@@ -49,3 +49,11 @@ https://www.youtube.com/watch?v=bdNS0K4Bt8U&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcI
 https://github.com/SkillDevloper/CEH-Assessments
 
 https://hackzone.in/blog/ceh-v13-certification-guide-free-resources-2025/
+
+https://www.youtube.com/watch?v=gyP6ZKC5SIQ
+apt inst-----sy
+pip install shell-gpt --break-system-pbbreackages
+
+pipx install "shell-gpt[litellm]"
+
+https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
