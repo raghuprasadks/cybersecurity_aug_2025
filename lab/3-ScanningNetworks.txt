@@ -3,15 +3,17 @@ Module 3 - Scanning Networks
 Lab 1: Perform Host Discovery
 
 The following are examples of host discovery techniques: 
-▪ ARP ping scan 
-▪ UDP ping scan 
+▪ ARP ping scan (Address Resolution Protocol scan)
+▪ UDP ping scan (User Datagram Protocol)
 ▪ ICMP ping scan (ICMP ECHO ping, ICMP timestamp, ping ICMP, and address mask ping) 
+ICMP (Internet Control Message Protocol)
 ▪ TCP ping scan (TCP SYN ping and TCP ACK ping) 
 ▪ IP protocol ping scan
 
 Task 1: Perform Host Discovery using Nmap
 
 nmap -sn -PR <ip address>
+nmap -sn -PR 43.204.121.160
 
 -sn disables port scan
 -PR performs ARP ping scan
@@ -53,9 +55,12 @@ nmap -sn -PO 43.204.121.160
 2. Perform port and service discovery
 
 Task 1: Explore Various Network Scanning Techniques using Nmap
+https://nmap.org/download.html#windows
 
 download zenmap
 nmap -sT -v <ipaddress>
+
+nmap -st -v 43.204.121.160
 
 Enable fire wall 
 nmap -sS -v <ipaddress>
