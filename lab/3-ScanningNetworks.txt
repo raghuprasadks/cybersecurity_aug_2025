@@ -34,7 +34,8 @@ nmap -sn -PP 43.204.121.160
 
 
 
-Apart from the aforementioned network scanning techniques, you can also use the following scanning techniques to perform a host discovery on a target network. ▪ ICMP Address Mask Ping Scan: This technique is an alternative for the traditional ICMP ECHO ping scan, which are used to determine whether the target host is live specifically when administrators block the ICMP ECHO pings.
+Apart from the aforementioned network scanning techniques, you can also use the following scanning techniques to perform a host discovery on a target network. 
+▪ ICMP Address Mask Ping Scan: This technique is an alternative for the traditional ICMP ECHO ping scan, which are used to determine whether the target host is live specifically when administrators block the ICMP ECHO pings.
 # nmap -sn -PM [target IP address]
 ▪ TCP SYN Ping Scan: This technique sends empty TCP SYN packets to the target host, ACK response means that the host is active.
 # nmap -sn -PS [target IP address]
@@ -45,6 +46,8 @@ Apart from the aforementioned network scanning techniques, you can also use the 
 
 
 nmap -sn -PM 43.204.121.160
+
+nmap -sn -PN 43.204.121.160
 
 nmap -sn -PS 43.204.121.160
 
@@ -58,6 +61,13 @@ Task 1: Explore Various Network Scanning Techniques using Nmap
 https://nmap.org/download.html#windows
 
 download zenmap
+
+Note: -sT: performs the TCP connect/full open scan and -v: enables the verbose output (include all hosts and ports in the output).
+
+Note: -sS: performs the stealth scan/TCP half-open scan and -v: enables the verbose output (include all hosts and ports in the output).
+
+Note: -sX: performs the Xmas scan and -v: enables the verbose output (include all hosts and ports in the output)
+
 nmap -sT -v <ipaddress>
 
 nmap -st -v 43.204.121.160
@@ -68,6 +78,9 @@ nmap -sS -v <ipaddress>
 nmap -sT -v <ipaddress>
 
 nmap -sM -v <ipaddress>
+
+
+https://www.wireshark.org/download.html
 
 
 
