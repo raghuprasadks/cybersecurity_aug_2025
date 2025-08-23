@@ -59,6 +59,7 @@ nmap -sn -PO 43.204.121.160
 
 Task 1: Explore Various Network Scanning Techniques using Nmap
 https://nmap.org/download.html#windows
+https://www.geeksforgeeks.org/linux-unix/top-30-basic-nmap-commands-for-beginners/
 
 download zenmap
 
@@ -78,9 +79,31 @@ nmap -sS -v <ipaddress>
 nmap -sT -v <ipaddress>
 
 nmap -sM -v <ipaddress>
+nmap -T4 -A -v www.kaushalya.tech
+
+
 
 
 https://www.wireshark.org/download.html
+
+
+Perform OS discovery
+nmap -A www.kaushalya.tech
+
+Note: -A: to perform an aggressive scan. 
+Note: The scan takes approximately 10 minutes to complete
+
+nmap -O www.kaushalya.tech
+Note: -O: performs the OS discovery.
+
+nmap --script smb-os-discovery.nse www.kaushalya.tech
+Note: --script: specifies the customized script and smb-os-discovery.nse: attempts to determine the OS, computer name, domain, workgroup, and current time over the SMB protocol (ports 445 or 139)
+
+
+Scan beyond IDS and Firewall
+
+
+
 
 
 

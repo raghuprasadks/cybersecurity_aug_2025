@@ -2,14 +2,10 @@ https://hackzone.in/blog/ceh-v13-certification-guide-free-resources-2025/
 https://ceh-practical.cavementech.com/
 Install virtual box
 https://www.youtube.com/watch?v=zzG0BPma9yY
-
 Installation of parrot os
 https://www.youtube.com/watch?v=Ux0ivYuDQmc
-
 Cyber Security
-
 https://www.youtube.com/watch?v=h3PNK1pq2OA
-
 Domain Name Systems
 
 https://www.youtube.com/watch?v=mpQZVYPuDGU
@@ -57,3 +53,13 @@ pip install shell-gpt --break-system-pbbreackages
 pipx install "shell-gpt[litellm]"
 
 https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
+
+FIREWALL,IPS VS IDS
+https://www.youtube.com/watch?v=l7FeR1MIRFY
+major protocols
+https://www.youtube.com/watch?v=3r8AgyY-PsQ
+https://www.youtube.com/watch?v=P6SZLcGE4us
+https://www.youtube.com/watch?v=E5bSumTAHZE
+
+TCP VS UDP
+https://www.youtube.com/watch?v=uwoD5YsGACg
