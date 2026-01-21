@@ -1,0 +1,159 @@
+Agenda:
+1. Recap
+Unit 1 - Introduction to Cybersecurity
+dnsdumpster
+nmap - network mapper
+MCQ test
+
+Unit 2 - Footprinting
+Website
+IP address
+Who is the owner
+open ports
+networking details
+service details
+operating system
+users
+configuration-server
+
+google dark
+
+hands-on
+
+https://www.whois.com/
+
+https://www.whois.com/whois/
+
+domain details of following websites
+
+irctc
+icici
+india.gov.in
+
+builtwith
+website name
+
+https://dnsdumpster.com/
+
+google advanced search
+
+site:newhorizoncollege.co.in "admissions"
+site:newhorizoncollege.co.in "locations"
+inurl:login
+allinurl:login
+filetype:pdf cyber security
+site:*.google.com
+
+nmap --script dns-brute example.com
+
+
+google hacking database - ghdb
+
+https://www.exploit-db.com/google-hacking-database
+
+to explore
+'theHarvester' sub domain
+dig zone transfer
+Shodan
+'FOCA' 
+reverse DNS lookup
+The Pointer (PTR) record resides in the reverse lookup zone
+
+Maltego - visualization tool 
+domain ip address
+'traceroute' 
+Start of Authority (SOA) record for a domain - serial number
+Configuring the DNS server to only allow zone transfers to specific IP addresses.
+
+'HTTrack'  - mirror the entire website
+
+Sherlock - user name across social media
+
+CNAME (Canonical Name) is an alias
+
+Recon-ng is a powerful OSINT framework that organizes modules into categories  - recon-ng is written in python
+
+'Wappalyzer'  extension
+same as builtwith
+
+An organization wants to prevent hackers from seeing the personal name and contact info of the domain registrant
+who is primary shield
+
+
+nslookup newhorizoncollege.co.in
+nslookup -type=mx newhorizoncollege.co.in
+nslookup -type=ns newhorizoncollege.co.in
+
+dig www.newhorizoncollege.co.in
+theharvester
+
+https://ekaushalya.kaushalya.tech/
+Module 2
+
+
+Module 3
+
+Firewall,IPS and IDS
+
+
+Modem - Router -> Switch - >Your systems
+
+IPS - Intrusion Prevention System
+IDS - Intrusion Detection System
+
+
+
+https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/
+
+https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unit 3 - 

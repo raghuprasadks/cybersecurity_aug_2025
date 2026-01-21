@@ -1,0 +1,101 @@
+Cyber Security
+
+Recap
+
+1. Introduction to cyber security
+securing network
+malware
+securing applications/database
+physical security 
+unauthorized access
+patch management
+
+securing network
+Modem -
+Router
+Switch/hub
+LAN - wired/wireless
+
+Uniquely identify a system
+IP Address/MAC Address
+ipv4 - 32
+ipv6 - 128
+
+command to check ip address in windows
+system
+open terminal
+type ipconfig
+
+connect to parrot os
+tell me the ip address of the parrot os
+
+open terminal
+
+ip a
+
+https://newhorizoncollege.co.in/
+
+owner of this website
+ip address of the server
+
+domain name service providers
+
+godaddy
+aws
+google
+
+dnsdumpster
+
+browse
+https://newhorizoncollege.co.in/
+create website
+deploy a website
+server - physical machine
+web server - nginx,apache2,iis,jboss,live server
+request/response - http/https
+passive
+
+ping
+nmap  - network mapper
+nmap <ip address/domain>
+
+TCP - Transmission Control Protocol
+ICP/IP
+
+3 way hand shake
+
+UDP
+IDS - Intrusion Detection System
+IPS - Intrusion Prevention System
+
+
+Nmap is used to discover hosts, open ports, running services, OS details, and vulnerabilities on a network.
+
+
+nmap newhorizoncollege.co.in
+nmap -p 80,443 newhorizoncollege.co.in
+
+Explore various options of nmap
+
+nmap -sn -PR 192.168.1.0/24
+
+sudo sgpt --chat scan --shell "Detect the operating system of the target newhorizoncollege.co.in"
+
+
+ekaushalya.kaushalya.tech
+
+sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+

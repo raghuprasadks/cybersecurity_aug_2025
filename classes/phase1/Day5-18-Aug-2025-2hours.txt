@@ -1,0 +1,45 @@
+Agenda:
+1. Networking devices
+Modem 
+Router - (extender or repeater)
+Switch/Hub
+LAN
+2. Open System Interconnection (OSI models)
+
+www.google.com
+www.google.com.
+
+https://newhorizoncollegeofengineering.in/
+
+3. Networking protocols
+
+4. http protocol
+
+Step 1 - Sample webpage
+Software - Visual studio code
+download visual studio code
+https://code.visualstudio.com/download
+
+create web/mywebsite folder
+open folder using visual studio code
+
+Step 2 - run this on liveserver of the visual studio code
+done
+Step 3 - Deploy this using github
+sign up GitHub.com
+
+https://github.com/raghuprasadks/demoechnh.git
+
+https://dnsdumpster.com/
+
+raghuprasadks.github.io
+
+
+Step 4 - nginx server
+
+
+
+
+
+
+

@@ -1,9 +1,0 @@
-Agenda:
-Module 3 - Scanning network
-Firewall
-IPS - Intrusion Prevention System 
-IDS - Intrusion Detection System
-ports
-services
-operating system
-
