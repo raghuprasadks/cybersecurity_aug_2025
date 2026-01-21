@@ -1,0 +1,49 @@
+Agenda:
+1. Password cracking
+John the Ripper
+2. Packet Tracing - wireshark
+3. Metasploit
+
+git
+
+https://github.com/raghuprasadks/cybersecurity_aug_2025
+
+1. Password cracking
+
+create an user in parrot os
+using terminal
+
+sudo adduser demouser
+first password is 
+the super user/root password
+second password is the password:12345678
+for the demouser
+
+su demouser
+password : enter the password for the demo user
+pwd
+ls
+exit
+cd /etc
+ls
+sudo cat shadow
+
+2. Encrypting a password protected file
+
+
+wireshark
+
+43.204.121.160 - kaushalya
+
+52.66.122.187 - newhorizon
+	15.206.10.228
+
+
+https://ekaushalya.kaushalya.tech/
+
+
+
+
+
+
+
