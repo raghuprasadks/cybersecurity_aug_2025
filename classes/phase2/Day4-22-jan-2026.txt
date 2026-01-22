@@ -1,0 +1,4 @@
+Agenda:
+1. Metasploit
+2. wireshark
+3. mcq module 5
