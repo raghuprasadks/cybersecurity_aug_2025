@@ -1,0 +1,16 @@
+Agenda:
+1. Vulnerability Scanner - Nessus
+2. Burfsuite  
+newhorizoncollege.co.in
+Request - Server
+Request -> Burfsuite -> Server
+
+3. Web Vulnerabilities in Metasploitable DVWA application
+4. SQL
+
+Application Development
+Check functionality
+security testing - Educational application
+IBM Appscan
+
+load/volume testing - 1000 

