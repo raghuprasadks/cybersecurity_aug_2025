@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Array Example</h2>
+
+  <script>
+    let ports = [21, 22, 80, 443];
+
+    console.log("Ports:", ports);
+    console.log("First port:", ports[0]);
+
+    ports.push(8080);
+    console.log("After adding 8080:", ports);
+
+    ports.pop();
+    console.log("After removing last:", ports);
+
+    for (let i = 0; i < ports.length; i++) {
+      console.log("Port:", ports[i]);
+    }
+  </script>
+</body>
+</html>

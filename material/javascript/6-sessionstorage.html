@@ -1,0 +1,55 @@
+<!-- 1️⃣ What is a session?
+
+A session means storing temporary information while the user is using the website.
+
+In JavaScript, we can store session data using:
+✅ sessionStorage
+
+📌 Key point:
+➡️ sessionStorage data is removed when the tab/browser is closed.
+
+2️⃣ What does this program do?
+
+This program has two buttons:
+
+🔹 Save Session
+
+Stores data into sessionStorage
+
+🔹 Load Session
+
+Reads data from sessionStorage and displays it
+
+
+SessionStorage is used for temporary session info like:
+
+user role
+
+login status (not recommended for real security)
+
+⚠️ But attackers can steal it using XSS because JavaScript can access sessionStorage.
+
+So real websites store session tokens securely using:
+✅ server-side sessions
+✅ HttpOnly cookies -->
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Session Example</h2>
+  <button onclick="saveSession()">Save Session</button>
+  <button onclick="loadSession()">Load Session</button>
+
+  <script>
+    function saveSession() {
+      sessionStorage.setItem("user", "admin");
+      alert("Session saved!");
+    }
+
+    function loadSession() {
+      let user = sessionStorage.getItem("user");
+      alert("Session user: " + user);
+    }
+  </script>
+</body>
+</html>

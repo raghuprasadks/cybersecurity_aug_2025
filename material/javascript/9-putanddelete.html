@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>PUT & DELETE Demo (Local)</h2>
+
+  <h3>Current Users:</h3>
+  <pre id="output"></pre>
+
+  <h3>Update User (PUT)</h3>
+  ID: <input type="number" id="putId">
+  New Name: <input type="text" id="putName">
+  <button onclick="updateUser()">Update</button>
+
+  <h3>Delete User (DELETE)</h3>
+  ID: <input type="number" id="deleteId">
+  <button onclick="deleteUser()">Delete</button>
+
+  <script>
+    // Local "database"
+    let users = [
+      { id: 1, name: "Alice" },
+      { id: 2, name: "Bob" },
+      { id: 3, name: "Charlie" }
+    ];
+
+    const output = document.getElementById("output");
+
+    function showUsers() {
+      output.textContent = JSON.stringify(users, null, 2);
+    }
+
+    showUsers();
+
+    // PUT: update user
+    function updateUser() {
+      let id = parseInt(document.getElementById("putId").value);
+      let newName = document.getElementById("putName").value;
+
+      let user = users.find(u => u.id === id);
+      if (user) {
+        user.name = newName;
+        alert("User updated!");
+      } else {
+        alert("User not found!");
+      }
+
+      showUsers();
+    }
+
+    // DELETE: remove user
+    function deleteUser() {
+      let id = parseInt(document.getElementById("deleteId").value);
+      users = users.filter(u => u.id !== id);
+      alert("User deleted!");
+      showUsers();
+    }
+  </script>
+</body>
+</html>
