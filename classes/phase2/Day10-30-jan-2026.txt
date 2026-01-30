@@ -1,0 +1,44 @@
+Agenda:
+1. AI in Cyber Security
+Shell GPT
+AI
+Machine Learning
+Regression - predicting price of a stock
+Classification - Tumor or not 
+Deep Learning
+Generative AI
+next word
+image
+audio
+video
+poem
+LLM's (Large Language Models)
+Doctor suggest me to eat an apple every day.
+Apple has announced priced cut of iPhone.
+
+pip install shellgpt
+
+https://platform.openai.com/
+api key
+
+GPT-2  Model - ChatGPT (application) - OpenAI
+Gemini
+Groq
+LLAMMA
+
+How to use sgpt with ollama in parrot os
+2. Social Engineering Tool Kits (SET)
+setoolkit
+10.151.15.175
+3. MCQ Test
+
+Hands-on
+
+setoolkit
+1. Social Engineering Attack
+2. Website Attack vector
+3. Credential Harvester Attack Method
+2. Site Cloner
+Enter the URL to clone
+http://testphp.vulnweb.com/login.php
+

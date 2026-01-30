@@ -1,0 +1,75 @@
+Agenda:
+1. Shodan
+Internet of things (IoT)
+shodan.io
+
+in windows
+arp -a
+
+2. Cloud Computing
+deployed model
+
+Public
+private
+hybrid - private /public
+
+service model
+IAAS - Infrastructure As A Service
+PAAS - Platform As A service
+SAAS - Software As A service
+
+service
+
+Cloud Service Providers
+1. AWS - Amazon
+2. Azure - Microsoft
+3. Google Cloud - Google
+
+aws
+https://aws.amazon.com/
+sign up
+root - adminstrator6
+MFA - Multi Factor Authentication
+
+Create a website
+Host/deploy website
+Server
+EC2 - Elastic Cloud Compute
+Launch instance
+cyberdemoserver
+key - pair
+
+SSH (Secure Shell) is a cryptographic network protocol used for securely accessing and managing remote computers over unsecured networks. It operates on port 22, providing encrypted, passwordless authentication (using key pairs) and secure file transfers (SFTP/SCP) to replace insecure methods like Telnet. 
+
+13.201.124.229
+
+Operating System
+Services are running
+
+nmap 13.201.124.229
+
+ssh -i "cyberdemoserver-kp.pem" ubuntu@ec2-13-201-124-229.ap-south-1.compute.amazonaws.com
+
+http://13.201.124.229/
+
+https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
+
+sudo apt update
+sudo apt install nginx
+
+nmap -sV 13.201.124.229
+
+ Simple Storage Service (S3)
+RDS
+
+Relational Database Service (RDS)
+IAM
+
+AWS Identity and Access Management (IAM) is a free, core web service that securely controls access to AWS resources by managing authentication and authorization
+
+nmap -sV kaushalya.tech
+
+
+3. Recon-ng
+
+4. Shell-gpt
