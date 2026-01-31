@@ -1,0 +1,83 @@
+Agenda:
+1. Cloud Computing - Module 11
+
+https://aws.amazon.com/
+Sign Up
+
+Deployment model
+
+public 
+private
+hybrid
+community
+multi cloud
+
+Service model
+Infrastructure As A Service (IAAS)
+EC2 - Elastic Cloud Compute
+Create your own server,attach storage,
+configure security
+S3 - Simple Storage Solution
+storing files,images,audio,video
+
+Platform As A Service (PAAS)
+
+Software As A Service (SAAS)
+
+DEVOPS
+Virtualization - virtual server
+Docker
+Container
+
+Hands on session
+1. Lab 1
+2. Lab 2
+AWS CLI (Command Line Interface)
+
+
+2. IoT and OT
+MQTT (Message Queuing Telemetry Transport) 
+Publish and Subscribe
+
+
+
+JSON - Java Script Object Notation
+
+Key : value pair
+
+data - Payload
+{
+"light1":1,
+"light2":0,
+"temp":24
+}
+
+MQTT Hands on 
+
+1.Download and install mosquitto mqtt broker
+	https://mosquitto.org/download/
+Windows
+mosquitto-2.0.18a-install-windows-x64.exe (64-bit build, Windows Vista and up, built with Visual Studio Community 2019
+
+2.Verify whether mosquitto is running using windows search – services – mosquito
+3. Stop the mosquitto service
+4. Run mosquito from command prompt
+	Cmd to C:\Program Files\mosquito
+
+6. Subscribe to a topic
+Open another terminal and cmd to C:\Program Files\mosquito
+Type mosquitto_sub -h localhost -p 1883 -t "topic”
+
+7. Publish a topic
+Open another terminal and cmd to C:\Program Files\mosquito
+Type mosquitto_pub -h localhost -p 1883 -t "topic" -m "Hello World“
+8. Check the subscriber whether you have received the message
+
+
+
+
+
+
+
+
+3. Network level Attacks and counter measures
